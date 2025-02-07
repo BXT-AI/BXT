@@ -1,0 +1,112 @@
+.dashboard {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f5f7fa;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.brand {
+  color: #2d3748;
+  font-weight: 700;
+}
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #e2e8f0;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.tabs button.active {
+  background: #4299e1;
+  color: white;
+}
+
+.form-section {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #2d3748;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #cbd5e0;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  transition: border-color 0.2s;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #4299e1;
+}
+
+.traits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.traits-grid button {
+  padding: 0.5rem;
+  border: 2px solid #cbd5e0;
+  border-radius: 6px;
+  background: white;
+  cursor: pointer;
+}
+
+.traits-grid button.selected {
+  border-color: #4299e1;
+  background: #ebf8ff;
+}
+
+.deploy-button {
+  width: 100%;
+  padding: 1rem;
+  background: #48bb78;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.deploy-button:hover {
+  background: #38a169;
+}
+
+.message {
+  text-align: center;
+  margin: 1rem 0;
+  min-height: 1.5rem;
+}
